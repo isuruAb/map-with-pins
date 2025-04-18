@@ -11,8 +11,13 @@
   height: 100%;
 }
 
+.map-wrapper {
+  user-select: none;
+}
+
 .map-image {
+  display: block;
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
+  pointer-events: none; /* prevents selection while dragging */
 }
