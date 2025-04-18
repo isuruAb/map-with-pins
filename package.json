@@ -1,0 +1,30 @@
+{
+  "name": "map-with-pins",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src/styles.css"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.8",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "rollup": "^4.40.0",
+    "rollup-plugin-import-css": "^3.5.8",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.0.0"
+  }
+}
