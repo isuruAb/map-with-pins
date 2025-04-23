@@ -2,6 +2,7 @@
   position: relative;
   border: 1px solid #ccc;
   overflow: hidden;
+  user-select: none;
 }
 
 .zoom-container {
@@ -11,13 +12,9 @@
   height: 100%;
 }
 
-.map-wrapper {
-  user-select: none;
-}
-
 .map-image {
   display: block;
   width: 100%;
   height: auto;
-  pointer-events: none; /* prevents selection while dragging */
+  pointer-events: none;
 }
